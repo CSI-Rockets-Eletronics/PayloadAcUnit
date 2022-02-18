@@ -801,6 +801,71 @@ An 0805 resistor inside a standard 1/4W 5% resistor. Makes for easy mods</descri
 </deviceset>
 </devicesets>
 </library>
+<library name="B3B-XH-A_LF__SN_">
+<packages>
+<package name="JST_B3B-XH-A(LF)(SN)">
+<wire x1="-4.95" y1="3.4" x2="4.95" y2="3.4" width="0.127" layer="51"/>
+<wire x1="4.95" y1="3.4" x2="4.95" y2="-2.35" width="0.127" layer="51"/>
+<wire x1="4.95" y1="-2.35" x2="-4.95" y2="-2.35" width="0.127" layer="51"/>
+<wire x1="-4.95" y1="3.4" x2="4.95" y2="3.4" width="0.127" layer="21"/>
+<wire x1="-4.95" y1="-2.35" x2="-4.95" y2="3.4" width="0.127" layer="51"/>
+<wire x1="-4.95" y1="-2.35" x2="-4.95" y2="3.4" width="0.127" layer="21"/>
+<wire x1="4.95" y1="-2.35" x2="-4.95" y2="-2.35" width="0.127" layer="21"/>
+<wire x1="4.95" y1="3.4" x2="4.95" y2="-2.35" width="0.127" layer="21"/>
+<circle x="5.83" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="5.83" y="0" radius="0.1" width="0.2" layer="51"/>
+<wire x1="-5.2" y1="3.65" x2="5.2" y2="3.65" width="0.05" layer="39"/>
+<wire x1="5.2" y1="3.65" x2="5.2" y2="-2.6" width="0.05" layer="39"/>
+<wire x1="5.2" y1="-2.6" x2="-5.2" y2="-2.6" width="0.05" layer="39"/>
+<wire x1="-5.2" y1="-2.6" x2="-5.2" y2="3.65" width="0.05" layer="39"/>
+<text x="-5.2" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.2" y="-4" size="1.27" layer="27">&gt;VALUE</text>
+<pad name="2" x="0" y="0" drill="1"/>
+<pad name="3" x="-2.5" y="0" drill="1"/>
+<pad name="1" x="2.5" y="0" drill="1" shape="square"/>
+</package>
+</packages>
+<symbols>
+<symbol name="B3B-XH-A(LF)(SN)">
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<text x="-5.08" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-10.16" y="2.54" length="middle" direction="pas"/>
+<pin name="2" x="-10.16" y="0" length="middle" direction="pas"/>
+<pin name="3" x="-10.16" y="-2.54" length="middle" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="B3B-XH-A(LF)(SN)" prefix="J">
+<description>Connector Header Through Hole 3 position 0.098" (2.50mm)  &lt;a href="https://pricing.snapeda.com/parts/B3B-XH-A%28LF%29%28SN%29/JST%20Sales/view-part?ref=eda"&gt;Check prices&lt;/a&gt;  &lt;a href="https://pricing.snapeda.com/parts/B3B-XH-A%28LF%29%28SN%29/JST%20Sales/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="B3B-XH-A(LF)(SN)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JST_B3B-XH-A(LF)(SN)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" Connector Header Through Hole 3 position 0.098 (2.50mm) "/>
+<attribute name="MF" value="JST Sales"/>
+<attribute name="MP" value="B3B-XH-A(LF)(SN)"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -818,6 +883,7 @@ An 0805 resistor inside a standard 1/4W 5% resistor. Makes for easy mods</descri
 <part name="ARDUINO-NANO" library="ABX00028" deviceset="ABX00028" device=""/>
 <part name="12VBATTERY" library="B2B-XH-A_LF__SN_" deviceset="B2B-XH-A(LF)(SN)" device=""/>
 <part name="PELTIER" library="B2B-XH-A_LF__SN_" deviceset="B2B-XH-A(LF)(SN)" device=""/>
+<part name="TMP36" library="B3B-XH-A_LF__SN_" deviceset="B3B-XH-A(LF)(SN)" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -852,6 +918,10 @@ An 0805 resistor inside a standard 1/4W 5% resistor. Makes for easy mods</descri
 <attribute name="NAME" x="60.96" y="69.088" size="1.778" layer="95"/>
 <attribute name="VALUE" x="60.96" y="58.42" size="1.778" layer="96"/>
 </instance>
+<instance part="TMP36" gate="G$1" x="124.46" y="33.02" smashed="yes">
+<attribute name="NAME" x="119.38" y="38.862" size="1.778" layer="95"/>
+<attribute name="VALUE" x="119.38" y="25.4" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -877,6 +947,12 @@ An 0805 resistor inside a standard 1/4W 5% resistor. Makes for easy mods</descri
 <wire x1="55.88" y1="33.02" x2="48.26" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="33.02" x2="48.26" y2="27.94" width="0.1524" layer="91"/>
 <label x="48.26" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TMP36" gate="G$1" pin="3"/>
+<wire x1="114.3" y1="30.48" x2="109.22" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="30.48" x2="109.22" y2="25.4" width="0.1524" layer="91"/>
+<label x="109.22" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="12V" class="0">
@@ -966,6 +1042,31 @@ An 0805 resistor inside a standard 1/4W 5% resistor. Makes for easy mods</descri
 <pinref part="ARDUINO-NANO" gate="G$1" pin="A1"/>
 <wire x1="-30.48" y1="40.64" x2="-40.64" y2="40.64" width="0.1524" layer="91"/>
 <label x="-45.72" y="43.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="5V" class="0">
+<segment>
+<pinref part="TMP36" gate="G$1" pin="1"/>
+<wire x1="114.3" y1="35.56" x2="104.14" y2="35.56" width="0.1524" layer="91"/>
+<label x="104.14" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="ARDUINO-NANO" gate="G$1" pin="+5V"/>
+<wire x1="10.16" y1="58.42" x2="27.94" y2="58.42" width="0.1524" layer="91"/>
+<label x="27.94" y="60.96" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="THERMOCOUPLE" class="0">
+<segment>
+<pinref part="ARDUINO-NANO" gate="G$1" pin="A3"/>
+<wire x1="-30.48" y1="35.56" x2="-45.72" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="35.56" x2="-45.72" y2="33.02" width="0.1524" layer="91"/>
+<label x="-53.34" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TMP36" gate="G$1" pin="2"/>
+<wire x1="114.3" y1="33.02" x2="96.52" y2="33.02" width="0.1524" layer="91"/>
+<label x="88.9" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

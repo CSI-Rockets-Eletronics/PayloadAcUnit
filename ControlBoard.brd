@@ -156,18 +156,20 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="46.97" y2="0" width="0" layer="20"/>
-<wire x1="46.97" y1="0" x2="46.97" y2="61.9" width="0" layer="20"/>
-<wire x1="46.97" y1="61.9" x2="0" y2="61.9" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="45.7" y2="0" width="0" layer="20"/>
+<wire x1="45.7" y1="0" x2="45.7" y2="61.9" width="0" layer="20"/>
+<wire x1="45.7" y1="61.9" x2="0" y2="61.9" width="0" layer="20"/>
 <wire x1="0" y1="61.9" x2="0" y2="0" width="0" layer="20"/>
 <hole x="3.81" y="58.42" drill="2.89999375"/>
 <hole x="43.18" y="58.42" drill="2.89999375"/>
 <hole x="3.81" y="3.81" drill="2.89999375"/>
 <hole x="43.18" y="3.81" drill="2.89999375"/>
-<text x="1.27" y="35.56" size="1.778" layer="1">+</text>
+<text x="1.27" y="34.29" size="1.778" layer="1">+</text>
 <text x="1.27" y="27.94" size="1.778" layer="1">+</text>
-<text x="12.7" y="35.56" size="1.778" layer="1">-</text>
-<text x="12.7" y="29.21" size="1.778" layer="1">-</text>
+<text x="13.97" y="34.29" size="1.778" layer="1">-</text>
+<text x="13.97" y="29.21" size="1.778" layer="1">-</text>
+<text x="44.45" y="7.62" size="1.27" layer="1" rot="R90">https://bit.ly/3oYGHJX</text>
+<text x="44.45" y="35.56" size="1.27" layer="1" rot="R90">PAYLOAD AC UNIT V1</text>
 </plain>
 <libraries>
 <library name="47053-1000">
@@ -374,6 +376,31 @@
 </package>
 </packages>
 </library>
+<library name="B3B-XH-A_LF__SN_">
+<packages>
+<package name="JST_B3B-XH-A(LF)(SN)">
+<wire x1="-4.95" y1="3.4" x2="4.95" y2="3.4" width="0.127" layer="51"/>
+<wire x1="4.95" y1="3.4" x2="4.95" y2="-2.35" width="0.127" layer="51"/>
+<wire x1="4.95" y1="-2.35" x2="-4.95" y2="-2.35" width="0.127" layer="51"/>
+<wire x1="-4.95" y1="3.4" x2="4.95" y2="3.4" width="0.127" layer="21"/>
+<wire x1="-4.95" y1="-2.35" x2="-4.95" y2="3.4" width="0.127" layer="51"/>
+<wire x1="-4.95" y1="-2.35" x2="-4.95" y2="3.4" width="0.127" layer="21"/>
+<wire x1="4.95" y1="-2.35" x2="-4.95" y2="-2.35" width="0.127" layer="21"/>
+<wire x1="4.95" y1="3.4" x2="4.95" y2="-2.35" width="0.127" layer="21"/>
+<circle x="5.83" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="5.83" y="0" radius="0.1" width="0.2" layer="51"/>
+<wire x1="-5.2" y1="3.65" x2="5.2" y2="3.65" width="0.05" layer="39"/>
+<wire x1="5.2" y1="3.65" x2="5.2" y2="-2.6" width="0.05" layer="39"/>
+<wire x1="5.2" y1="-2.6" x2="-5.2" y2="-2.6" width="0.05" layer="39"/>
+<wire x1="-5.2" y1="-2.6" x2="-5.2" y2="3.65" width="0.05" layer="39"/>
+<text x="-5.2" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.2" y="-4" size="1.27" layer="27">&gt;VALUE</text>
+<pad name="2" x="0" y="0" drill="1"/>
+<pad name="3" x="-2.5" y="0" drill="1"/>
+<pad name="1" x="2.5" y="0" drill="1" shape="square"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -566,7 +593,7 @@ design rules under a new name.
 <attribute name="DESCRIPTION" value=" Conn Wire to Board HDR 4 POS 2.54mm Solder ST Thru-Hole KK® Bag " x="49.53" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Molex" x="49.53" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MP" value="470531000" x="49.53" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="2.295" y="16.418" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="2.295" y="8.798" size="1.27" layer="25" rot="R90" align="center"/>
 <attribute name="PACKAGE" value="None" x="49.53" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="49.53" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/470531000/?ref=eda" x="49.53" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
@@ -597,38 +624,44 @@ design rules under a new name.
 <attribute name="NAME" x="20.574" y="42.418" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="15.005" y="42.5006" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="ARDUINO-NANO" library="ABX00028" package="MODULE_ABX00028" value="ABX00028" x="30.48" y="38.1" smashed="yes" rot="R270">
-<attribute name="AVAILABILITY" value="In Stock" x="30.48" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value=" Arduino’s 5V compatible board in the smallest available form factor: 45x18mm! " x="30.48" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="Arduino" x="30.48" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MP" value="Arduino Nano Every" x="30.48" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="40.48" y="59.6" size="1.27" layer="25" rot="R270"/>
-<attribute name="PACKAGE" value="None" x="30.48" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PRICE" value="None" x="30.48" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/Arduino Nano Every/?ref=eda" x="30.48" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="20.48" y="59.6" size="1.27" layer="27" rot="R270" align="top-left"/>
+<element name="ARDUINO-NANO" library="ABX00028" package="MODULE_ABX00028" value="ABX00028" x="29.21" y="38.1" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="29.21" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" Arduino’s 5V compatible board in the smallest available form factor: 45x18mm! " x="29.21" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Arduino" x="29.21" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="Arduino Nano Every" x="29.21" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="39.21" y="59.6" size="1.27" layer="25" rot="R270"/>
+<attribute name="PACKAGE" value="None" x="29.21" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="29.21" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/Arduino Nano Every/?ref=eda" x="29.21" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="12VBATTERY" library="B2B-XH-A_LF__SN_" package="JST_B2B-XH-A(LF)(SN)" value="B2B-XH-A(LF)(SN)" x="7.62" y="26.67" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="In Stock" x="7.62" y="26.67" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value=" Connector Header Through Hole 2 position 0.098 (2.50mm) " x="7.62" y="26.67" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="JST Sales" x="7.62" y="26.67" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MP" value="B2B-XH-A(LF)(SN)" x="7.62" y="26.67" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="12.84" y="21.375" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="14.11" y="22.645" size="1.27" layer="25" rot="R180"/>
 <attribute name="PACKAGE" value="None" x="7.62" y="26.67" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRICE" value="None" x="7.62" y="26.67" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/B2B-XH-A(LF)(SN)/?ref=eda" x="7.62" y="26.67" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="11.57" y="30.145" size="1.27" layer="27" rot="R180" align="top-left"/>
 </element>
 <element name="PELTIER" library="B2B-XH-A_LF__SN_" package="JST_B2B-XH-A(LF)(SN)" value="B2B-XH-A(LF)(SN)" x="7.62" y="35.56" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="In Stock" x="7.62" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value=" Connector Header Through Hole 2 position 0.098 (2.50mm) " x="7.62" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="JST Sales" x="7.62" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MP" value="B2B-XH-A(LF)(SN)" x="7.62" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="10.3" y="31.535" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="11.645" y="38.24" size="1.27" layer="25" rot="R270"/>
 <attribute name="PACKAGE" value="None" x="7.62" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRICE" value="None" x="7.62" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/B2B-XH-A(LF)(SN)/?ref=eda" x="7.62" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="11.57" y="39.035" size="1.27" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="TMP36" library="B3B-XH-A_LF__SN_" package="JST_B3B-XH-A(LF)(SN)" value="B3B-XH-A(LF)(SN)" x="30.48" y="11.43" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="In Stock" x="30.48" y="11.43" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" Connector Header Through Hole 3 position 0.098 (2.50mm) " x="30.48" y="11.43" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="JST Sales" x="30.48" y="11.43" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="B3B-XH-A(LF)(SN)" x="30.48" y="11.43" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="36.83" y="14.09" size="1.27" layer="25" rot="R270"/>
+<attribute name="PACKAGE" value="None" x="30.48" y="11.43" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="30.48" y="11.43" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 </elements>
 <signals>
@@ -646,9 +679,16 @@ design rules under a new name.
 <wire x1="11.43" y1="20.32" x2="11.43" y2="16.51" width="1.016" layer="1"/>
 <wire x1="11.43" y1="16.51" x2="7.62" y2="16.51" width="1.016" layer="1"/>
 <wire x1="17.78" y1="26.67" x2="17.78" y2="22.86" width="1.016" layer="1"/>
-<wire x1="17.78" y1="22.86" x2="22.86" y2="22.86" width="1.016" layer="1"/>
-<wire x1="33.02" y1="22.86" x2="38.1" y2="27.94" width="1.016" layer="1"/>
-<wire x1="22.86" y1="22.86" x2="33.02" y2="22.86" width="1.016" layer="1"/>
+<wire x1="17.78" y1="22.86" x2="21.59" y2="22.86" width="1.016" layer="1"/>
+<wire x1="35.56" y1="27.94" x2="36.83" y2="27.94" width="1.016" layer="1"/>
+<contactref element="TMP36" pad="3"/>
+<wire x1="33.02" y1="5.08" x2="33.02" y2="11.39" width="1.016" layer="1"/>
+<wire x1="33.02" y1="11.39" x2="32.98" y2="11.43" width="1.016" layer="1"/>
+<wire x1="24.13" y1="5.08" x2="33.02" y2="5.08" width="1.016" layer="1"/>
+<wire x1="32.98" y1="11.43" x2="32.98" y2="25.36" width="1.016" layer="1"/>
+<wire x1="32.98" y1="25.36" x2="35.56" y2="27.94" width="1.016" layer="1"/>
+<wire x1="21.59" y1="22.86" x2="24.13" y2="22.86" width="1.016" layer="1"/>
+<wire x1="24.13" y1="22.86" x2="24.13" y2="5.08" width="1.016" layer="1"/>
 </signal>
 <signal name="12V">
 <contactref element="FAN" pad="2"/>
@@ -659,9 +699,9 @@ design rules under a new name.
 <wire x1="6.37" y1="26.67" x2="2.54" y2="26.67" width="1.016" layer="1"/>
 <wire x1="2.54" y1="26.67" x2="2.54" y2="13.97" width="1.016" layer="1"/>
 <wire x1="2.54" y1="13.97" x2="7.62" y2="13.97" width="1.016" layer="1"/>
-<wire x1="7.62" y1="13.97" x2="20.32" y2="13.97" width="1.016" layer="1"/>
-<wire x1="20.32" y1="13.97" x2="20.32" y2="20.32" width="1.016" layer="1"/>
-<wire x1="20.32" y1="20.32" x2="22.86" y2="20.32" width="1.016" layer="1"/>
+<wire x1="7.62" y1="13.97" x2="16.51" y2="13.97" width="1.016" layer="1"/>
+<wire x1="16.51" y1="13.97" x2="16.51" y2="20.32" width="1.016" layer="1"/>
+<wire x1="16.51" y1="20.32" x2="21.59" y2="20.32" width="1.016" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="FAN" pad="3"/>
@@ -669,9 +709,11 @@ design rules under a new name.
 <signal name="PWM">
 <contactref element="FAN" pad="4"/>
 <contactref element="ARDUINO-NANO" pad="21"/>
-<wire x1="7.62" y1="8.89" x2="43.18" y2="8.89" width="1.016" layer="1"/>
-<wire x1="43.18" y1="8.89" x2="43.18" y2="33.02" width="1.016" layer="1"/>
-<wire x1="43.18" y1="33.02" x2="38.1" y2="33.02" width="1.016" layer="1"/>
+<wire x1="7.62" y1="8.89" x2="13.97" y2="2.54" width="1.016" layer="1"/>
+<wire x1="34.29" y1="2.54" x2="13.97" y2="2.54" width="1.016" layer="1"/>
+<wire x1="40.64" y1="8.89" x2="40.64" y2="33.02" width="1.016" layer="1"/>
+<wire x1="40.64" y1="33.02" x2="36.83" y2="33.02" width="1.016" layer="1"/>
+<wire x1="40.64" y1="8.89" x2="34.29" y2="2.54" width="1.016" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="ICOPAMP" pad="2"/>
@@ -701,14 +743,23 @@ design rules under a new name.
 <contactref element="ARDUINO-NANO" pad="5"/>
 <wire x1="13.97" y1="50.8" x2="17.78" y2="46.99" width="1.016" layer="1"/>
 <wire x1="20.32" y1="46.99" x2="21.59" y2="45.72" width="1.016" layer="1"/>
-<wire x1="21.59" y1="45.72" x2="22.86" y2="45.72" width="1.016" layer="1"/>
 <wire x1="17.78" y1="46.99" x2="20.32" y2="46.99" width="1.016" layer="1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="ARDUINO-NANO" pad="2"/>
 </signal>
-<signal name="+5V">
+<signal name="5V">
+<contactref element="TMP36" pad="1"/>
 <contactref element="ARDUINO-NANO" pad="12"/>
+<wire x1="27.98" y1="11.43" x2="27.98" y2="26.63" width="1.016" layer="1"/>
+<wire x1="27.98" y1="26.63" x2="26.67" y2="27.94" width="1.016" layer="1"/>
+<wire x1="26.67" y1="27.94" x2="21.59" y2="27.94" width="1.016" layer="1"/>
+</signal>
+<signal name="THERMOCOUPLE">
+<contactref element="ARDUINO-NANO" pad="7"/>
+<contactref element="TMP36" pad="2"/>
+<wire x1="30.48" y1="11.43" x2="30.48" y2="40.64" width="1.016" layer="1"/>
+<wire x1="30.48" y1="40.64" x2="21.59" y2="40.64" width="1.016" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
