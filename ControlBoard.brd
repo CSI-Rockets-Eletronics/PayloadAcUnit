@@ -164,12 +164,12 @@
 <hole x="43.18" y="58.42" drill="2.89999375"/>
 <hole x="3.81" y="3.81" drill="2.89999375"/>
 <hole x="43.18" y="3.81" drill="2.89999375"/>
-<text x="1.27" y="34.29" size="1.778" layer="1">+</text>
-<text x="1.27" y="27.94" size="1.778" layer="1">+</text>
-<text x="13.97" y="34.29" size="1.778" layer="1">-</text>
-<text x="13.97" y="29.21" size="1.778" layer="1">-</text>
-<text x="44.45" y="7.62" size="1.27" layer="1" rot="R90">https://bit.ly/3oYGHJX</text>
-<text x="44.45" y="35.56" size="1.27" layer="1" rot="R90">PAYLOAD AC UNIT V1</text>
+<text x="44.45" y="55.88" size="1.778" layer="16" rot="MR270">PAYLOAD AC UNIT V1.0</text>
+<text x="44.45" y="25.4" size="1.016" layer="16" rot="MR270">https://bit.ly/PayLoadDesign</text>
+<text x="2.54" y="34.29" size="2.1844" layer="16" rot="MR0">+</text>
+<text x="2.54" y="29.21" size="2.1844" layer="16" rot="MR0">+</text>
+<text x="13.97" y="29.21" size="2.1844" layer="16" rot="MR0">-</text>
+<text x="13.97" y="34.29" size="2.1844" layer="16" rot="MR0">-</text>
 </plain>
 <libraries>
 <library name="47053-1000">
@@ -620,9 +620,9 @@ design rules under a new name.
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/LM358/?ref=eda" x="12.7" y="54.61" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="19.05" y="54.61" size="0.6096" layer="27" ratio="20" rot="R90" align="bottom-center"/>
 </element>
-<element name="R1" library="adafruit" package="0805-THM" value="1Ω" x="17.78" y="39.37" smashed="yes" rot="R270">
-<attribute name="NAME" x="20.574" y="42.418" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="15.005" y="42.5006" size="1.27" layer="27" ratio="10" rot="R270"/>
+<element name="R1" library="adafruit" package="0805-THM" value="1Ω" x="16.51" y="39.37" smashed="yes" rot="R270">
+<attribute name="NAME" x="19.304" y="42.418" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="13.735" y="42.5006" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="ARDUINO-NANO" library="ABX00028" package="MODULE_ABX00028" value="ABX00028" x="29.21" y="38.1" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="In Stock" x="29.21" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
@@ -671,37 +671,37 @@ design rules under a new name.
 <contactref element="ARDUINO-NANO" pad="14"/>
 <contactref element="ARDUINO-NANO" pad="19"/>
 <contactref element="12VBATTERY" pad="2"/>
-<wire x1="17.78" y1="34.29" x2="17.78" y2="26.67" width="1.778" layer="1"/>
-<wire x1="8.87" y1="26.67" x2="17.78" y2="26.67" width="1.778" layer="1"/>
-<wire x1="8.87" y1="26.67" x2="8.87" y2="20.34" width="1.016" layer="1"/>
-<wire x1="8.87" y1="20.34" x2="8.89" y2="20.32" width="1.016" layer="1"/>
-<wire x1="8.89" y1="20.32" x2="11.43" y2="20.32" width="1.016" layer="1"/>
-<wire x1="11.43" y1="20.32" x2="11.43" y2="16.51" width="1.016" layer="1"/>
-<wire x1="11.43" y1="16.51" x2="7.62" y2="16.51" width="1.016" layer="1"/>
-<wire x1="17.78" y1="26.67" x2="17.78" y2="22.86" width="1.016" layer="1"/>
-<wire x1="17.78" y1="22.86" x2="21.59" y2="22.86" width="1.016" layer="1"/>
-<wire x1="35.56" y1="27.94" x2="36.83" y2="27.94" width="1.016" layer="1"/>
 <contactref element="TMP36" pad="3"/>
-<wire x1="33.02" y1="5.08" x2="33.02" y2="11.39" width="1.016" layer="1"/>
-<wire x1="33.02" y1="11.39" x2="32.98" y2="11.43" width="1.016" layer="1"/>
-<wire x1="24.13" y1="5.08" x2="33.02" y2="5.08" width="1.016" layer="1"/>
-<wire x1="32.98" y1="11.43" x2="32.98" y2="25.36" width="1.016" layer="1"/>
-<wire x1="32.98" y1="25.36" x2="35.56" y2="27.94" width="1.016" layer="1"/>
-<wire x1="21.59" y1="22.86" x2="24.13" y2="22.86" width="1.016" layer="1"/>
-<wire x1="24.13" y1="22.86" x2="24.13" y2="5.08" width="1.016" layer="1"/>
+<wire x1="36.83" y1="27.94" x2="35.56" y2="27.94" width="1.016" layer="16"/>
+<wire x1="32.98" y1="25.36" x2="32.98" y2="11.43" width="1.016" layer="16"/>
+<wire x1="35.56" y1="27.94" x2="32.98" y2="25.36" width="1.016" layer="16"/>
+<wire x1="32.98" y1="11.43" x2="33.02" y2="11.39" width="1.016" layer="16"/>
+<wire x1="33.02" y1="11.39" x2="33.02" y2="5.08" width="1.016" layer="16"/>
+<wire x1="33.02" y1="5.08" x2="24.13" y2="5.08" width="1.016" layer="16"/>
+<wire x1="24.13" y1="5.08" x2="24.13" y2="22.86" width="1.016" layer="16"/>
+<wire x1="24.13" y1="22.86" x2="21.59" y2="22.86" width="1.016" layer="16"/>
+<wire x1="8.87" y1="26.67" x2="8.89" y2="26.65" width="1.016" layer="16"/>
+<wire x1="8.89" y1="26.65" x2="8.89" y2="20.32" width="1.016" layer="16"/>
+<wire x1="8.89" y1="20.32" x2="11.43" y2="20.32" width="1.016" layer="16"/>
+<wire x1="11.43" y1="20.32" x2="11.43" y2="16.51" width="1.016" layer="16"/>
+<wire x1="11.43" y1="16.51" x2="7.62" y2="16.51" width="1.016" layer="16"/>
+<wire x1="16.51" y1="34.29" x2="16.51" y2="26.67" width="2.032" layer="16"/>
+<wire x1="16.51" y1="26.67" x2="8.87" y2="26.67" width="2.032" layer="16"/>
+<wire x1="21.59" y1="22.86" x2="16.51" y2="22.86" width="1.016" layer="16"/>
+<wire x1="16.51" y1="22.86" x2="16.51" y2="26.67" width="1.016" layer="16"/>
 </signal>
 <signal name="12V">
 <contactref element="FAN" pad="2"/>
 <contactref element="ARDUINO-NANO" pad="15"/>
 <contactref element="12VBATTERY" pad="1"/>
 <contactref element="PELTIER" pad="1"/>
-<wire x1="6.37" y1="35.56" x2="6.37" y2="26.67" width="1.778" layer="1"/>
-<wire x1="6.37" y1="26.67" x2="2.54" y2="26.67" width="1.016" layer="1"/>
-<wire x1="2.54" y1="26.67" x2="2.54" y2="13.97" width="1.016" layer="1"/>
-<wire x1="2.54" y1="13.97" x2="7.62" y2="13.97" width="1.016" layer="1"/>
-<wire x1="7.62" y1="13.97" x2="16.51" y2="13.97" width="1.016" layer="1"/>
-<wire x1="16.51" y1="13.97" x2="16.51" y2="20.32" width="1.016" layer="1"/>
-<wire x1="16.51" y1="20.32" x2="21.59" y2="20.32" width="1.016" layer="1"/>
+<wire x1="7.62" y1="13.97" x2="16.51" y2="13.97" width="1.016" layer="16"/>
+<wire x1="16.51" y1="13.97" x2="16.51" y2="20.32" width="1.016" layer="16"/>
+<wire x1="16.51" y1="20.32" x2="21.59" y2="20.32" width="1.016" layer="16"/>
+<wire x1="6.37" y1="26.67" x2="2.54" y2="26.67" width="1.016" layer="16"/>
+<wire x1="2.54" y1="26.67" x2="2.54" y2="13.97" width="1.016" layer="16"/>
+<wire x1="2.54" y1="13.97" x2="7.62" y2="13.97" width="1.016" layer="16"/>
+<wire x1="6.37" y1="35.56" x2="6.37" y2="26.67" width="2.032" layer="16"/>
 </signal>
 <signal name="N$3">
 <contactref element="FAN" pad="3"/>
@@ -709,41 +709,41 @@ design rules under a new name.
 <signal name="PWM">
 <contactref element="FAN" pad="4"/>
 <contactref element="ARDUINO-NANO" pad="21"/>
-<wire x1="7.62" y1="8.89" x2="13.97" y2="2.54" width="1.016" layer="1"/>
-<wire x1="34.29" y1="2.54" x2="13.97" y2="2.54" width="1.016" layer="1"/>
-<wire x1="40.64" y1="8.89" x2="40.64" y2="33.02" width="1.016" layer="1"/>
-<wire x1="40.64" y1="33.02" x2="36.83" y2="33.02" width="1.016" layer="1"/>
-<wire x1="40.64" y1="8.89" x2="34.29" y2="2.54" width="1.016" layer="1"/>
+<wire x1="36.83" y1="33.02" x2="40.64" y2="33.02" width="1.016" layer="16"/>
+<wire x1="40.64" y1="33.02" x2="40.64" y2="8.89" width="1.016" layer="16"/>
+<wire x1="40.64" y1="8.89" x2="34.29" y2="2.54" width="1.016" layer="16"/>
+<wire x1="34.29" y1="2.54" x2="13.97" y2="2.54" width="1.016" layer="16"/>
+<wire x1="13.97" y1="2.54" x2="7.62" y2="8.89" width="1.016" layer="16"/>
 </signal>
 <signal name="N$1">
 <contactref element="ICOPAMP" pad="2"/>
 <contactref element="ICMOSFET" pad="3"/>
 <contactref element="R1" pad="1"/>
-<wire x1="17.78" y1="44.45" x2="10.16" y2="44.45" width="1.778" layer="1"/>
-<wire x1="11.43" y1="50.8" x2="11.43" y2="45.72" width="1.778" layer="1"/>
-<wire x1="10.16" y1="44.45" x2="11.43" y2="45.72" width="1.778" layer="1"/>
+<wire x1="10.16" y1="44.45" x2="11.43" y2="44.45" width="2.032" layer="16"/>
+<wire x1="11.43" y1="44.45" x2="16.51" y2="44.45" width="2.032" layer="16"/>
+<wire x1="11.43" y1="50.8" x2="11.43" y2="44.45" width="2.032" layer="16"/>
 </signal>
 <signal name="IREGULATOR">
 <contactref element="ICMOSFET" pad="2"/>
 <contactref element="PELTIER" pad="2"/>
-<wire x1="7.62" y1="44.45" x2="7.62" y2="39.37" width="1.778" layer="1"/>
-<wire x1="7.62" y1="39.37" x2="8.89" y2="39.37" width="1.778" layer="1"/>
-<wire x1="8.89" y1="39.37" x2="8.89" y2="35.56" width="1.778" layer="1"/>
-<wire x1="8.89" y1="35.56" x2="8.87" y2="35.56" width="0" layer="19" extent="1-1"/>
+<wire x1="7.62" y1="44.45" x2="7.62" y2="40.64" width="2.032" layer="16"/>
+<wire x1="7.62" y1="40.64" x2="8.89" y2="40.64" width="2.032" layer="16"/>
+<wire x1="8.89" y1="40.64" x2="8.89" y2="35.58" width="2.032" layer="16"/>
+<wire x1="8.89" y1="35.58" x2="8.87" y2="35.56" width="2.032" layer="16"/>
 </signal>
 <signal name="N$5">
 <contactref element="ICOPAMP" pad="1"/>
 <contactref element="ICMOSFET" pad="1"/>
-<wire x1="5.08" y1="44.45" x2="5.08" y2="48.26" width="1.778" layer="1"/>
-<wire x1="5.08" y1="48.26" x2="8.89" y2="48.26" width="1.778" layer="1"/>
-<wire x1="8.89" y1="48.26" x2="8.89" y2="50.8" width="1.778" layer="1"/>
+<wire x1="8.89" y1="50.8" x2="5.08" y2="50.8" width="2.032" layer="16"/>
+<wire x1="5.08" y1="50.8" x2="5.08" y2="44.45" width="2.032" layer="16"/>
 </signal>
 <signal name="PELTIERCONTROL">
 <contactref element="ICOPAMP" pad="3"/>
 <contactref element="ARDUINO-NANO" pad="5"/>
-<wire x1="13.97" y1="50.8" x2="17.78" y2="46.99" width="1.016" layer="1"/>
-<wire x1="20.32" y1="46.99" x2="21.59" y2="45.72" width="1.016" layer="1"/>
-<wire x1="17.78" y1="46.99" x2="20.32" y2="46.99" width="1.016" layer="1"/>
+<wire x1="13.97" y1="50.8" x2="13.97" y2="46.99" width="1.016" layer="16"/>
+<wire x1="13.97" y1="46.99" x2="17.78" y2="46.99" width="1.016" layer="16"/>
+<wire x1="17.78" y1="46.99" x2="19.05" y2="45.72" width="1.016" layer="16"/>
+<wire x1="19.05" y1="45.72" x2="21.59" y2="45.72" width="1.016" layer="16"/>
 </signal>
 <signal name="+3V3">
 <contactref element="ARDUINO-NANO" pad="2"/>
@@ -751,15 +751,15 @@ design rules under a new name.
 <signal name="5V">
 <contactref element="TMP36" pad="1"/>
 <contactref element="ARDUINO-NANO" pad="12"/>
-<wire x1="27.98" y1="11.43" x2="27.98" y2="26.63" width="1.016" layer="1"/>
-<wire x1="27.98" y1="26.63" x2="26.67" y2="27.94" width="1.016" layer="1"/>
-<wire x1="26.67" y1="27.94" x2="21.59" y2="27.94" width="1.016" layer="1"/>
+<wire x1="21.59" y1="27.94" x2="26.67" y2="27.94" width="1.016" layer="16"/>
+<wire x1="27.98" y1="26.63" x2="27.98" y2="11.43" width="1.016" layer="16"/>
+<wire x1="26.67" y1="27.94" x2="27.98" y2="26.63" width="1.016" layer="16"/>
 </signal>
 <signal name="THERMOCOUPLE">
 <contactref element="ARDUINO-NANO" pad="7"/>
 <contactref element="TMP36" pad="2"/>
-<wire x1="30.48" y1="11.43" x2="30.48" y2="40.64" width="1.016" layer="1"/>
-<wire x1="30.48" y1="40.64" x2="21.59" y2="40.64" width="1.016" layer="1"/>
+<wire x1="21.59" y1="40.64" x2="30.48" y2="40.64" width="1.016" layer="16"/>
+<wire x1="30.48" y1="40.64" x2="30.48" y2="11.43" width="1.016" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
